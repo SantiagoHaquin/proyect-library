@@ -5,10 +5,12 @@ import { booksMedicina } from "../hooks/booksMedicina";
 export const Medicina = () => {
   return (
     <>
-      <h2 className="title">LIBROS DE MEDICINA</h2>
-      <hr />
-      <Booksbase books={booksMedicina.MedicinaInterna}></Booksbase>
-      <Footer></Footer>
+      <div className="container-books">
+        <h2 className="title">LIBROS DE MEDICINA</h2>
+        <hr />
+        <Booksbase books={booksMedicina.MedicinaInterna}></Booksbase>
+      </div>
+        <Footer></Footer>
     </>
   );
 };
