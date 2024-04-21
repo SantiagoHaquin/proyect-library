@@ -1,5 +1,3 @@
-import Logo2 from "../assets/Logo2.png"
-
 export const Footer = () => {
   return (
     <div className="container-end-main">
